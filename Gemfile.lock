@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    lotus-redis (0.0.1)
+      lotus-model (~> 0.1)
+      redis (~> 3.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    lotus-model (0.1.2)
+      lotus-utils (~> 0.2)
+      sequel (~> 4.9)
+    lotus-utils (0.2.0)
+    redis (3.1.0)
+    sequel (4.13.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  lotus-redis!
